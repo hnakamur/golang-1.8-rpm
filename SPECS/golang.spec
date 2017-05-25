@@ -99,10 +99,10 @@
 %endif
 
 %global go_api 1.8
-%global go_version 1.8.1
+%global go_version 1.8.3
 
 Name:           golang
-Version:        1.8.1
+Version:        1.8.3
 Release:        1%{?dist}
 Summary:        The Go Programming Language
 # source tree includes several copies of Mark.Twain-Tom.Sawyer.txt under Public Domain
@@ -532,6 +532,9 @@ fi
 %endif
 
 %changelog
+* Thu May 25 2017 Hiroaki Nakamura <hnakamur@gmail.com> - 1.8.3-1
+- bump to 1.8.3
+
 * Sat Apr 08 2017 Hiroaki Nakamura <hnakamur@gmail.com> - 1.8.1-1
 - bump to 1.8.1
 
